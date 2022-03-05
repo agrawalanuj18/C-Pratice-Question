@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
-    int P,R,T;
+    float P,R,T;
     printf("Enter the value of Pricipal\n");
-    scanf("%d", &P);
+    scanf("%f", &P);
     printf("Enter the value of Rate\n");
-    scanf("%d", &R);
+    scanf("%f", &R);
     printf("Enter the value of Time\n");
-    scanf("%d", &T);
+    scanf("%f", &T);
 
-    float Simple_Interest = P*R*T;
+    float Simple_Interest = (P*R*T)/100;
     printf("Simple Interest is equal to %f\n", Simple_Interest);
     return 0;
 }
