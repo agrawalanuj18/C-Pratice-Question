@@ -22,19 +22,23 @@ int main()
     // }
     // above code is not write in right order
 
-    if (income>=10){
-        printf("30" );
+    if (income >= 10)
+    {
+        printf("30");
     }
-    else if (income>=5){
+    else if (income >= 5)
+    {
         printf("20");
     }
-    
-    else if (income>=2.5){
+
+    else if (income >= 2.5)
+    {
         printf("5");
     }
-    else if (income>=0){
+    else if (income >= 0)
+    {
         printf("0");
     }
-    
+
     return 0;
 }

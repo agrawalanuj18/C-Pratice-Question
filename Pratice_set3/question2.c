@@ -11,7 +11,7 @@ int main()
 
     int result = (math + chem + phy) / 3;
 
-    if (result >= 40 && math>= 33 && chem>= 33 && phy >= 33)
+    if (result >= 40 && math >= 33 && chem >= 33 && phy >= 33)
     {
         printf("Pass");
     }

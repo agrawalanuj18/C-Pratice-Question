@@ -4,7 +4,7 @@ int main()
     int marks;
 
     printf("Enter the marks\n");
-    scanf("%d", marks);
+    scanf("%d", &marks);
     
      switch (marks)
     {
