@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int n, i = 2;
+    int n, i;
     printf("Enter the given value of n\n");
     scanf("%d", &n);
     int remainder;
-    while (i < n)
+    for (i = 2; i < n; i++)
     {
         remainder = n % i;
         if (remainder == 0)
@@ -13,8 +13,6 @@ int main()
             printf("Given number is not prime number\n");
             break;
         }
-
-        i++;
     }
     if (remainder != 0 || n == 2)
     {

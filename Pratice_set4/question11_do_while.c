@@ -5,17 +5,17 @@ int main()
     printf("Enter the given value of n\n");
     scanf("%d", &n);
     int remainder;
-    while (i < n)
+    do
     {
         remainder = n % i;
-        if (remainder == 0)
+        if (remainder == 0 && n != 2)
         {
             printf("Given number is not prime number\n");
             break;
         }
 
         i++;
-    }
+    } while (i < n);
     if (remainder != 0 || n == 2)
     {
         printf("Given number is prime number\n");
